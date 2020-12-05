@@ -33,13 +33,27 @@ public class Setup implements ActionListener{
 	JButton b9;
 	public Song song;
 	public Song song1;
+	public Song song2;
+	public Song song3;
+	public Song song4;
+	public Song song5;
+	public Song song6;
+	public Song song7;
+	public Song song8;
 	public static final int WIDTH = 500;
 	public static final int HEIGHT = 500;
 	
 	Setup(){
 		song = new Song("E.mp3");
 		song1 = new Song("Swamp.mp3");
-		f = new JFrame();
+		song2 = new Song("BEE.mp3");
+		song3 = new Song("RRD.mp3");
+		song4 = new Song("Confirmed.mp3");
+		song5 = new Song("OMAN.mp3");
+		song6 = new Song("Buttercup.mp3");
+		song7 = new Song("TBC.mp3");
+		song8 = new Song("S4ns.mp3");
+		f = new JFrame("Meme Sound Board Page 1");
 		p = new JPanel(new GridLayout());p.setPreferredSize(new Dimension(100, 100));
 		b1 = new JButton();
 		b2 = new JButton();
@@ -60,15 +74,15 @@ public class Setup implements ActionListener{
 		p.add(b7);
 		p.add(b8);
 		p.add(b9);
-		b1.setBackground(Color.white);
-		b2.setBackground(Color.white);
-		b3.setBackground(Color.white);
-		b4.setBackground(Color.white);
-		b5.setBackground(Color.white);
-		b6.setBackground(Color.white);
-		b7.setBackground(Color.white);
-		b8.setBackground(Color.white);
-		b9.setBackground(Color.white);
+		b1.setBackground(Color.red);
+		b2.setBackground(Color.orange);
+		b3.setBackground(Color.yellow);
+		b4.setBackground(Color.green);
+		b5.setBackground(Color.yellow);
+		b6.setBackground(Color.green);
+		b7.setBackground(Color.yellow);
+		b8.setBackground(Color.orange);
+		b9.setBackground(Color.red);
 		b1.addActionListener(this);
 		b2.addActionListener(this);
 		b3.addActionListener(this);
@@ -105,25 +119,25 @@ public class Setup implements ActionListener{
 			song1.play();
 		}
 		if(e.getSource() == b3) {
-			JOptionPane.showMessageDialog(null, "Ring a Ding.");
+			song2.play();
 		}
 		if(e.getSource() == b4) {
-			JOptionPane.showMessageDialog(null, "Ring a Ding!");
+			song3.play();
 		}
 		if(e.getSource() == b5) {
-			JOptionPane.showMessageDialog(null, "Ring a Ding Ding.");
+			song4.play();
 		}
 		if(e.getSource() == b6) {
-			JOptionPane.showMessageDialog(null, "Ring a Ding Ding!");
+			song5.play();
 		}
 		if(e.getSource() == b7) {
-			JOptionPane.showMessageDialog(null, "Ring a Ding Ding Ling.");
+			song6.play();
 		}
 		if(e.getSource() == b8) {
-			JOptionPane.showMessageDialog(null, "Ring a Ding Ding Ling!");
+			song7.play();
 		}
 		if(e.getSource() == b9) {
-			JOptionPane.showMessageDialog(null, "NULL");
+			song8.play();
 		}
 	}
 	private JLabel loadImage(String fileName) {
@@ -140,16 +154,6 @@ class Song {
 	private AdvancedPlayer mp3Player;
 	private InputStream songStream;
 
-	/**
-	 * Songs can be constructed from files on your computer or Internet
-	 * addresses.
-	 * 
-	 * Examples: <code> 
-	 * 		new Song("everywhere.mp3"); 	//from default package 
-	 * 		new Song("/Users/joonspoon/music/Vampire Weekend - Modern Vampires of the City/03 Step.mp3"); 
-	 * 		new	Song("http://freedownloads.last.fm/download/569264057/Get%2BGot.mp3"); 
-	 * </code>
-	 */
 	public Song(String songAddress) {
 		this.songAddress = songAddress;
 	}
