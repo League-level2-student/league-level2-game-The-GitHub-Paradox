@@ -145,8 +145,6 @@ public class Setup implements ActionListener{
 		Icon icon = new ImageIcon(imageURL);
 		return new JLabel(icon);
 	}
-}
-
 class Song {
 
 	private int duration;
@@ -221,3 +219,6 @@ class Song {
 		}
 	}
 }
+}
+
+
