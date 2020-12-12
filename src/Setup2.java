@@ -13,6 +13,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import javazoom.jl.player.advanced.AdvancedPlayer;
@@ -111,31 +112,122 @@ public class Setup2 implements ActionListener{
 		// TODO Auto-generated method stub	
 		JButton buttonPressed = (JButton) e.getSource();
 		if(e.getSource() == b1) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song.play();
+			JOptionPane.showMessageDialog(null, "C418 - Minecraft(Bass Boosted)");
 		}
 		if(e.getSource() == b2) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song1.play();
+			JOptionPane.showMessageDialog(null, "C418 - 11");
 		}
 		if(e.getSource() == b3) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song2.play();
+			JOptionPane.showMessageDialog(null, "C418 - 13");
 		}
 		if(e.getSource() == b4) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song3.play();
+			JOptionPane.showMessageDialog(null, "Disc 11 and 13 combined");
 		}
 		if(e.getSource() == b5) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song4.play();
+			JOptionPane.showMessageDialog(null, "Pigstep(Minecraft)");
 		}
 		if(e.getSource() == b6) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song5.play();
+			JOptionPane.showMessageDialog(null, "Stal");
 		}
 		if(e.getSource() == b7) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song6.play();
+			JOptionPane.showMessageDialog(null, "Daft Punk - Robot Rock");
 		}
 		if(e.getSource() == b8) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song7.play();
+			JOptionPane.showMessageDialog(null, "Trance music for racing game");
+			
 		}
 		if(e.getSource() == b9) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song8.play();
+			JOptionPane.showMessageDialog(null, "Polish Cow");
 		}
 	}
 	private JLabel loadImage(String fileName) {

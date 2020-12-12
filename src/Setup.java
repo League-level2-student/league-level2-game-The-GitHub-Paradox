@@ -113,31 +113,121 @@ public class Setup implements ActionListener{
 		// TODO Auto-generated method stub	
 		JButton buttonPressed = (JButton) e.getSource();
 		if(e.getSource() == b1) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song.play();
+			JOptionPane.showMessageDialog(null, "E");
 		}
 		if(e.getSource() == b2) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song1.play();
+			JOptionPane.showMessageDialog(null, "Shrek");
 		}
 		if(e.getSource() == b3) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song2.play();
+			JOptionPane.showMessageDialog(null, "Barry Bee Benson");
 		}
 		if(e.getSource() == b4) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song3.play();
+			JOptionPane.showMessageDialog(null, "Rick Rolled");
 		}
 		if(e.getSource() == b5) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song4.play();
+			JOptionPane.showMessageDialog(null, "Illuminati");
 		}
 		if(e.getSource() == b6) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song5.play();
+			JOptionPane.showMessageDialog(null, "Ocean Man");
 		}
 		if(e.getSource() == b7) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song6.play();
+			JOptionPane.showMessageDialog(null, "Buttercup");
 		}
 		if(e.getSource() == b8) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song7.play();
+			JOptionPane.showMessageDialog(null, "Roundabout");
 		}
 		if(e.getSource() == b9) {
+			song.stop();
+			song1.stop();
+			song2.stop();
+			song3.stop();
+			song4.stop();
+			song5.stop();
+			song6.stop();
+			song7.stop();
+			song8.stop();
 			song8.play();
+			JOptionPane.showMessageDialog(null, "Song that might play when you fight sans");
 		}
 	}
 	private JLabel loadImage(String fileName) {
